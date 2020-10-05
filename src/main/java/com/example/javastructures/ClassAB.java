@@ -1,6 +1,6 @@
 package com.example.javastructures;
 
-public class ClassAB implements InterfaceA,  InterfaceB{
+public class ClassAB extends BaseClassAB{
     @Override
     public Integer fun(String v) {
         return null;

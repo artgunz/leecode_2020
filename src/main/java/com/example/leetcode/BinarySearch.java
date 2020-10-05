@@ -15,12 +15,12 @@ public class BinarySearch {
 
         int leftPos = 0, rightPos = inputArray.length - 1;
 
-        int iteration = 0;
+        var iteration = 0;
 
         while (leftPos < rightPos) {
             iteration++;
 
-            int middlePos = (leftPos + rightPos) / 2;
+            var middlePos = (leftPos + rightPos) / 2;
             System.out.println("Iteration:" + iteration + ": Middle pos " + middlePos);
 
             if (inputArray[middlePos] == valueToFind) {

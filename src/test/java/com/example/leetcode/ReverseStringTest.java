@@ -1,11 +1,11 @@
 package com.example.leetcode;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 class ReverseStringTest {
     @Test
-    void should_reverse() {
+    public void should_reverse() {
         String input = "ABCD";
         String expected = "DCBA";
 
@@ -19,7 +19,7 @@ class ReverseStringTest {
     }
 
     @Test
-    void should_reverse_non_sb() {
+    public void should_reverse_non_sb() {
         String input = "ABCD";
         String expected = "DCBA";
 

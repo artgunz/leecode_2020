@@ -1,11 +1,11 @@
 package com.example.leetcode;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class AnagramStringCheckTest {
+public class AnagramStringCheckTest {
     @Test
-    void should_check_anagram() {
+    public void should_check_anagram() {
         String first = "mama";
         String second = "maam";
 
@@ -13,7 +13,7 @@ class AnagramStringCheckTest {
     }
 
     @Test
-    void should_check_polindrome() {
+    public void should_check_polindrome() {
         String first = "maman";
         String second = "namam";
 

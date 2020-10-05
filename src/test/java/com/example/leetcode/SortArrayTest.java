@@ -1,17 +1,16 @@
 package com.example.leetcode;
 
 import org.junit.Assert;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.Arrays;
 
 class SortArrayTest {
     @Test
-    void should_sort_by_bubble() {
+    public void should_sort_by_bubble() {
         SortArray<Integer> sortArray = new SortArray<>();
 
-        Integer[] input = {2,3,4,5,6,1};
+        Integer[] input = {2, 3, 4, 5, 6, 1};
 
         Integer[] output = Arrays.copyOf(input, input.length);
         Arrays.sort(output);
@@ -22,10 +21,10 @@ class SortArrayTest {
     }
 
     @Test
-    void should_sort_by_bubble_reverse() {
+    public void should_sort_by_bubble_reverse() {
         SortArray<Integer> sortArray = new SortArray<>();
 
-        Integer[] input = {2,3,4,5,6,1};
+        Integer[] input = {2, 3, 4, 5, 6, 1};
 
         Integer[] output = Arrays.copyOf(input, input.length);
         Arrays.sort(output, (o1, o2) -> o2.compareTo(o1));
@@ -36,10 +35,10 @@ class SortArrayTest {
     }
 
     @Test
-    void should_sort_by_merge() {
+    public void should_sort_by_merge() {
         SortArray<Integer> sortArray = new SortArray<>();
 
-        Integer[] input = {2,3,4,5,6,1};
+        Integer[] input = {2, 3, 4, 5, 6, 1};
 
         Integer[] output = Arrays.copyOf(input, input.length);
         Arrays.sort(output);

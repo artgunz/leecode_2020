@@ -52,7 +52,7 @@ public class PairChecker {
     public Integer[] getPairForSumSimple(Integer[] inputArray, Integer inputSum) throws IllegalArgumentException{
         Arrays.sort(inputArray);
 
-        int length = inputArray.length;
+        var length = inputArray.length;
 
         for (int i = 0; i < length-1; i++) {
             for (int j = i+1; j < length; j++) {
